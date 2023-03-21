@@ -1,4 +1,4 @@
-class person
+class Person
   attr_reader :id, :name, :age
   attr_writer :name, :age
 
