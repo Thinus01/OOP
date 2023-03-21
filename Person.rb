@@ -1,4 +1,4 @@
-class Person
+class person
   attr_reader :id, :name, :age
   attr_writer :name, :age
 
@@ -15,7 +15,7 @@ class Person
 
   private
 
-  def is_of_age?
+  def of_age?
     @age >= 18
   end
 end
