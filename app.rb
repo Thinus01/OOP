@@ -91,7 +91,7 @@ class App
       name = gets.chomp
       print 'Has parent permission? [Y/N]: '
       parent_permission = gets.chomp
-      create_person(1, age, name, parent_permission)
+      create_person(1, parent_permission, name, age)
       puts 'Person created successfully'
     when '2'
       print 'Age: '
